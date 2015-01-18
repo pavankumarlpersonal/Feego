@@ -1,0 +1,17 @@
+<template name="header">
+  <div class="ui blue inverted menu header-padding">
+    <a class="text item">
+       Feego
+    </a>
+    {{#if currentUser}}
+
+    <div class="right menu">
+        <div class="item">
+          {{username}}
+        </div>
+    </div>
+
+
+    {{/if}}
+  </div>
+</template>
